@@ -352,6 +352,11 @@ table {
         color: #fff;
     }
 } 
+@media all and (max-width:596px){
+    .open_menu{
+        width: 100vw;
+    } 
+}
 /* main */
 
 /* main_visual */
