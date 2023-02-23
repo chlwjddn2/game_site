@@ -32,10 +32,15 @@ menuOpenBtn.forEach((item) => {
 }) 
 closeBtn.addEventListener('click', () => {
     menu.style.transform = 'translateX(1000px)'
-    menu.style.display = 'none';
+    menu.style.opacity = '0';
+    menu.style.visibility = 'hidden';
+
 })
 openBtn.addEventListener('click', () =>{
     menu.style.transform = 'translateX(0)';
-    menu.style.display = 'block';
+    menu.style.opacity = '1';
+    menu.style.visibility = 'visible';
 })
+
+
 

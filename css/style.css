@@ -240,6 +240,8 @@ table {
     background-color: #1f1f1f;
     transition: .5s ease-in-out;
     transform: translateX(1000px);
+    opacity: 0;
+    visibility: hidden;
 }
 .menu_top{
     display: flex;
